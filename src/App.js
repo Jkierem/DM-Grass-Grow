@@ -1,5 +1,5 @@
 import React from 'react'
-import { GrassImage } from './components'
+import { Root , PageContainer } from './views'
 
 class App extends React.Component{
 
@@ -10,7 +10,9 @@ class App extends React.Component{
 
   render(){
     return(
-      <GrassImage />
+      <PageContainer>
+        <Root />
+      </PageContainer>
     )
   }
 }

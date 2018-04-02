@@ -20,7 +20,7 @@ class GrassImage extends React.Component{
 		const { delay=1000 } = this.props;
 		return(
 			<Timer tick={this.loadImage} interval={delay}>
-				<img className="wgg_img" alt="Server is down" src={this.state.imageUrl} />
+				<img className="wgg-img" alt="Server is down" src={this.state.imageUrl} />
 			</Timer>
 		);
 	}
