@@ -1,6 +1,7 @@
 import React from 'react';
-import { GrassImage , Container} from '../../components';
+import { GrassImage , Container } from '../../components';
 import { ImageList } from '../../collections';
+import { MainContent } from '../'
 
 let items =[
 	{
@@ -44,9 +45,7 @@ class Root extends React.Component{
 	render(){
 		return(
 			<React.Fragment>
-				<Container>
-					<GrassImage />
-				</Container>
+				<MainContent />
 				<ImageList items={items} />
 			</React.Fragment>
 		);
