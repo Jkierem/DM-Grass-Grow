@@ -8,6 +8,14 @@ class Hero extends React.Component{
 	}
 }
 
+class Footer extends React.Component{
+	render=()=>(
+		<footer className="wgg-footer">
+			Copyright © 2018 - Todos los derechos reservados a sus respectivos dueños
+		</footer>
+	)
+}
+
 class PageContainer extends React.Component{
 	constructor(props){
 		super(props);
@@ -21,6 +29,7 @@ class PageContainer extends React.Component{
 				<section className="wgg-page-container">
 					{this.props.children}
 				</section>
+				<Footer />
 			</React.Fragment>
 		);
 	}
