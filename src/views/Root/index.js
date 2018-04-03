@@ -1,5 +1,4 @@
 import React from 'react';
-import { GrassImage , Container } from '../../components';
 import { ImageList } from '../../collections';
 import { MainContent } from '../'
 
